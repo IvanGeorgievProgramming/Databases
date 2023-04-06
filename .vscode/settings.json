@@ -13,5 +13,9 @@
             "username": "tutoruser",
             "password": "abcdef"
         }
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Program Files (x86)\\MySQL\\Connector J 8.0\\mysql-connector-j-8.0.31.jar"
     ]
 }
