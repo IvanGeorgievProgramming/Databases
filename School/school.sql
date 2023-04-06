@@ -41,8 +41,7 @@ CREATE TABLE MarkWords(
 
 CREATE TABLE Teachers(
 	Id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
-	Name VARCHAR(150) NOT NULL,
-	Class VARCHAR(5)
+	Name VARCHAR(150) NOT NULL
 );
 
 INSERT INTO Students(Id, Name, Num, ClassNum, ClassLetter, Birthday, EGN) VALUES( 101, 'Ivan Georgiev', 10, 11, 'а', '1999-02-28', NULL );
@@ -70,6 +69,6 @@ INSERT INTO MarkWords VALUES( 3.50, 4.50, '4' );
 INSERT INTO MarkWords VALUES( 4.50, 5.50, '5' );
 INSERT INTO MarkWords VALUES( 5.50, 6, '6' );
 
-INSERT INTO Teachers(Name, Class) VALUES( 'Alexander Petrov', '11a' );
-INSERT INTO Teachers(Name, Class) VALUES( 'Krasimir Trenchev', '10b' );
-INSERT INTO Teachers(Name, Class) VALUES( 'Magdalina Uzunova', '8v' );
+INSERT INTO Teachers(Name) VALUES( 'Alexander Petrov');
+INSERT INTO Teachers(Name) VALUES( 'Krasimir Trenchev');
+INSERT INTO Teachers(Name) VALUES( 'Magdalina Uzunova');
