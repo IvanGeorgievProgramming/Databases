@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS TasksDatabase;
+CREATE DATABASE TasksDatabase CHARSET 'utf8';

@@ -1,0 +1,1 @@
+UPDATE Notes SET ClosedOn = CURDATE() WHERE ClosedOn IS NULL AND Note LIKE '%school%';
