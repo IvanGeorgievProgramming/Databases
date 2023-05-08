@@ -1,0 +1,15 @@
+USE School;
+
+DROP TABLE IF EXISTS Students;
+
+CREATE TABLE Students (
+    Id INTEGER NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(255) NOT NULL,
+    ClassNumber INTEGER NOT NULL,
+    Class VARCHAR(255) NOT NULL,
+    EGN VARCHAR(10) NOT NULL,
+    DateOfBirth DATE NOT NULL,
+    EntranceExamScore INTEGER NOT NULL,
+    
+    PRIMARY KEY (Id)
+);
